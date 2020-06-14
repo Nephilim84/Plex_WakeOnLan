@@ -7,7 +7,7 @@ from wakeonlan import send_magic_packet
 from time import sleep
 import socket, sys, signal
 
-WOL_IP = "192.168.1.69"
+WOL_IP = PLEX_SERVER_IP
 WOL_PORT = 9
 PLEX_DISCOVER_PORT = 32412
 DEBUG_FILE = "/usr/bin/plex_wol/debug.log"
