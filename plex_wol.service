@@ -1,0 +1,12 @@
+[Unit]
+Description=plex_wol Service
+After=multi-user.target
+Conflicts=getty@tty1.service
+
+[Service]
+Type=simple
+ExecStart=python3 /usr/bin/plex_wol/plex_wol.py
+StandardInput=tty-force
+
+[Install]
+WantedBy=multi-user.target
