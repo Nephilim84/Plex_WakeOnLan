@@ -6,7 +6,7 @@ The script was designed to save power on the plex server, since the server needs
 
 To wake the target machine, it uses a magic packet.
 
-## Install Inscructions
+## Install Instructions
 Make sure to have python3 and pip3 installed on the machine.  
 
 - Download the files  
